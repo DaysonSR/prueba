@@ -11,7 +11,7 @@ body {
     min-height: 100vh;
     color: #fff;
     background: linear-gradient(120deg, #0a0908, #ba5e00);
-    transition: background-color 0.3s ease; 
+    transition: background-color 0.3s ease;
 }
 
 .navbar {
@@ -52,7 +52,6 @@ body {
     width: auto;
 }
 
-
 .navbar nav a {
     color: #fff;
     text-decoration: none;
@@ -63,29 +62,26 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
     font-size: 1.1rem;
-    white-space: nowrap; 
+    white-space: nowrap;
 }
-
 
 .navbar nav a:hover {
     background-color: #FFA500;
-    transform: translateY(-5px);
+    transform: translateY(-8px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
 }
 
-
 .navbar nav a#inicio:hover {
-    background-color: #4CAF50; 
+    background-color: #4CAF50;
 }
 
 .navbar nav a#login:hover {
-    background-color: #2196F3; 
+    background-color: #2196F3;
 }
-
 
 .navbar nav a#inicio:hover ~ body,
 .navbar nav a#login:hover ~ body {
-    background: linear-gradient(120deg, #4CAF50, #0a0908); 
+    background: linear-gradient(120deg, #4CAF50, #0a0908);
 }
 
 @media (max-width: 768px) {
@@ -97,7 +93,7 @@ body {
     }
 
     .navbar nav a {
-        width: 100%;  
+        width: 100%;
         padding: 1rem;
         text-align: center;
     }
