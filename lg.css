@@ -121,6 +121,7 @@
     transition: 0.4s;
   }
   
+  
   .input-box input:focus ~ i {
     width: 100%;
   }
